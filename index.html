@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html xml:lang="en" lang="en">
+<head>
+  <title>CSC 196V  Final Project</title>
+  <style>
+* { padding: 0; margin: 0; }
+body {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background-color:white ;
+  width: 89%;
+  font-family: "Avenir", "Avenir Next", Helvetica Neue, Arial;
+  font-size: 0.99em;
+}
+a, a:visited { text-decoration: none; color: #7533f4; }
+a:hover { text-decoration: underline; color: #f4b014; }
+img, a.img, a:hover.img { border: none; }
+img {
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5 {
+  color: #492a7c;
+  background-color: inherit;
+  font-weight: normal;
+  padding: 0 0 5px 0;
+  margin: 15px 0 0 0;
+  border: none;
+  clear: right;
+}
+h1 { font-size: 18pt; margin:  5px 0 10px 0; line-height: 28px; }
+h2 { font-size: 14pt; margin: 30px 0 15px 0; letter-spacing: 0.01em; border-bottom: 1px solid #ccc;  line-height: 20px;}
+h3 { font-size: 13pt; }
+h4 { font-size: 12pt; }
+h5 { font-size: 13pt; }
+p { margin: 0 0 13px 0; }
+hr { border: 0px; border-top: 1px solid #ccc; height: 0px; }
+ol { margin: 1em; }
+.content {
+  margin: 0;
+  padding: 15px 20px;
+  background-color: white;
+}
+.article {
+  line-height: 1.5em;
+}
+.entry  {
+  border-top: 1px solid #ddd;
+  padding-top: 2px;
+  margin-top: 3em;
+}
+  </style>
+</head>
+
+<body>
+<center>
+<div class='content'>
+
+<section>
+  <h1 align="center">Deaths By Smoke</h1>
+
+  <p align="center">
+   
+  </p>
+</section>
+
+<section>
+
+ 
+
+  <p>
+    The data is available online at:
+    <strong>
+      <a href="http://ghdx.healthdata.org/gbd-2017">DATASET-URL-HERE</a>
+    </strong>
+  </p>
+</section>
+
+
+  <h2>Discoveries &amp; Insights</h2>
+  <div>
+  <h1>What's in dataset?</h1><br>
+   <p>
+    <br/>
+    Tobacco smoking is one of the world’s largest health problems. Over the course of the 20th century, it killed around 100 million people, most of them in today’s rich countries. The health burdens of smoking are now moving from high-income to low-to-middle income countries; some estimates have suggested that one billion people could die from tobacco over the 21st century. According to the Global Burden of Disease study, more than 8 million people died prematurely as a result of smoking in 2017.
+
+The data is published by the Global Burden of Disease Collaborative Network. Global Burden of Disease Study 2017 (GBD 2017) Results. Seattle, United States: Institute for Health Metrics and Evaluation (IHME), 2018 with the time span from 1990 to 2017. It consists of data related to deaths due to smoking with different age categories, countries, gender, consumption per smoker per day, income range for the smoker. http://ghdx.healthdata.org/gbd-2017
+
+  </p>
+<div class='tableauPlaceholder' id='viz1576115187455' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sm&#47;Smoking_data_explore&#47;Dashboard4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Smoking_data_explore&#47;Dashboard4' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sm&#47;Smoking_data_explore&#47;Dashboard4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1576115187455');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='927px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+</div>
+  
+ <div class="entry">
+   <h1> Death rates from smoking by age, over the years (from 1990 to 2016)
+</h1><br>
+   <p>From the above visualization, we can see the breakdown of the deaths, most deaths from smoking occurred in older populations. When we look at the breakdown of deaths from smoking by age we see that it is mainly older populations that are affected.
+
+In the visualizations, we show the death rates from smoking by age category and the share of annual deaths that occur in each age group. Here we see that death rates from smoking are much higher in people older than 70 years old, followed by those aged 50 to 69. Death rates for younger adults and children are very low. 
+
+This has also reflected in the number of deaths by age: in 2016 just over half of the people who died prematurely from smoking were older than 70 years old, and around 93% were older than 50 years.
+
+</p>
+   <iframe src="https://dixipatel.github.io/Deaths-by-Smoking-Data-visualizations/" width="100%" height="787"></iframe>
+  </div>
+ <div class="entry">
+   <h1>Country-wise death rate change over the years (for Age>70 Category)</h1><br>
+   <p>With the help of the above insights, we thought of creating another interactive visualization where we can see death rates over the years for a specific category of people (i.e Age> 70). In this design, we used a dropdown where we can select the country and then a bar chart for a selected country is plotted with new values. 
+
+For this design, we had to wrangle our dataset again because needed different combinations of rows and columns from the actual dataset. We used trifacta for wrangling the data. 
+</p>
+   <iframe src="https://pallaviyadkikar.github.io/Interactive2/" width="100%" height="787"></iframe>
+  </div>
+
+ <div><br>
+    <h1> Who smokes more? Men or Women?</h1><br>
+   <p>Every 5th adult in the world smokes tobacco. But there are large differences between men and women.
+
+More than one-third (35%) of men in the world smoke. Just over 6% of women do.  In almost all countries it is true that more men smoke. In the visualization we see the comparison between of men and women who smokes daily. Data is filtered on country.In many countries – particularly across Asia and Africa – the differences are very large. smoking rates for women are very low – typically less than 5%. In Indonesia, 76% of men smoke but only 3% of women; in China it’s 48% of men versus 2% of women; and in Egypt half of men smoke whilst almost no women (0.2%) do.The fact that men are more likely than women to smoke is reflected health statistics: particularly lung cancer, for which smoking is a primary risk factor. We see that in every country in the world, men are more likely to die from lung cancer.</p>
+ <div align="center"  class='tableauPlaceholder' id='viz1575704287029' style='position: relative'>
+   <noscript>
+     <a href='#'>
+       <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1smokebygender&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+     </a>
+   </noscript>
+   <object class='tableauViz'  style='display:none;'>
+     <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+     <param name='embed_code_version' value='3' /> <param name='site_root' value='' />
+     <param name='name' value='Book1smokebygender&#47;Dashboard1' />
+     <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+     <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;Book1smokebygender&#47;Dashboard1&#47;1.png' /> 
+     <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+     <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+     <param name='display_count' value='yes' />
+   </object>
+</div>                
+    
+    <script type='text/javascript'>                    
+      var divElement = document.getElementById('viz1575704287029');                    
+      var vizElement = divElement.getElementsByTagName('object')[0];                    
+      if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+      else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} 
+      else { vizElement.style.width='100%';vizElement.style.height='777px';}                     
+      var scriptElement = document.createElement('script');                    
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+  </div>
+
+  <div align="center" width="80%"><br>
+  <h1>Global daily cigarettes consumption</h1>
+
+  <p>The extent of smoking is not only determined by the prevalence of populations who smoke, but also by the intensity of smoking. This is measured as the average number of cigarettes consumed by smokers.
+
+In the visualization here we see differences in the average number of cigarettes consumed by smokers each day across the world.
+
+Across much of Asia, Eastern Europe, North America and Oceania, the average is around 20 to 25 cigarettes per day. Rates across Latin America, Africa and Western Europe tend to be slightly lower.</p>
+<center>
+<div class='tableauPlaceholder' id='viz1576117006378' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sm&#47;Smoking_data_explore&#47;Dashboard3&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Smoking_data_explore&#47;Dashboard3' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sm&#47;Smoking_data_explore&#47;Dashboard3&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1576117006378');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.minWidth='720px';vizElement.style.maxWidth='1020px';vizElement.style.width='100%';vizElement.style.height='687px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} else { vizElement.style.width='100%';vizElement.style.height='777px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+  </div>
+
+    
+  
+  <div class="entry">
+    <h2>Summary</h2>
+    <p>
+    If we can process more data like income range of families and expenses made we can obtain more powerful insights of how to prevent smoking. These questions serially answers about what is the trend in smoking over the years. Using this visualizations we can come up with a solution to prevent smoking which will help number of people in a positive way.
+    </p>
+  </div>
+<br><br> <strong> Created By:  <br>Pallavi Yadkikar <br> Dixita Bhanderi <br> Ravi Trivedi</strong>
+
+
+</center>
+  <br><br><br><br><br><br><br><br><br><br><p></p>
+</body>
+</html>
